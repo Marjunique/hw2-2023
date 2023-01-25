@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif, 'Courier New', Courier, monospace;
+    font-family: Arial, Verdana;
     background-color:#000000;
     color:#FFFFFF;
     margin:20px 20px 0px 20px;
@@ -16,20 +16,19 @@ h2{ font-size: 30px;
 }
 p{
     font-size: 24px;
-    padding: 10px;
+    padding: 10px 0 0 10px;
 }
 img{
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 10px dashed;
-    border-color: #FFFFFF;
+    margin: auto;
+    border: 10px white dashed;
+    
 }
-div{
+body div{
     min-height: 125px;
-    padding: 20px 20px 20px 20px;
-    border: 3px solid;
+    padding: 20px;
+    border: 3px white solid;
 }
 .introduction{
     border-radius: 15px;
@@ -40,30 +39,30 @@ div{
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
-    border-left-width: 5px;
+    border: 0 0 2px 5px;
+    
 }
 .blue{
     background-color: #0000FF;
     color: #C4C4C4;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
-    border-top-width: 2px;
+    border: ;
+    top right bottom left
 }
 .yellow{
     background-color: #FFFF00;
     color: #707070;
     text-align: right;
     margin-left: 50px;
-    border-bottom-width: 2px;
+    border-bottom-width: 2px; (fix this)
     border-left-width: 5px;
 }
 .green{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right-width: 5px;
+    border-right-width: 5px; (fix this)
     border-top-width: 2px;
 }
 footer{
